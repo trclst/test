@@ -1,0 +1,2 @@
+deb https://mirrors.kernel.org/debian bullseye main non-free contrib
+deb https://deb.debian.org/debian-security/ bookworm-security main contrib non-free
