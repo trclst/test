@@ -1,0 +1,4 @@
+systemctl --user edit org.gnome.Shell@wayland.service
+[Service]
+ExecStart=
+ExecStart=/usr/bin/gnome-shell --no-x11
