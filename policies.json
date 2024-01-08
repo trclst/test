@@ -1,0 +1,112 @@
+{
+  "policies": {
+    "ExtensionSettings": {
+      "*": {
+        "installation_mode": "blocked"
+      },
+      "uBlock0@raymondhill.net": {
+        "install_url": "https://addons.mozilla.org/firefox/downloads/file/4198829/ublock_origin-1.54.0.xpi",
+        "installation_mode": "force_installed"
+      }
+    },
+    "CaptivePortal": false,
+    "DNSOverHTTPS": {
+      "Enabled": false
+    },
+    "DefaultDownloadDirectory": "${home}/Downloads",
+    "DisableAppUpdate": true,
+    "DisableBuiltinPDFViewer": true,
+    "DisableFeedbackCommands": true,
+    "DisableFirefoxAccounts": true,
+    "DisableFirefoxScreenshots": true,
+    "DisableFirefoxStudies": true,
+    "DisableForgetButton": true,
+    "DisableFormHistory": true,
+    "DisableMasterPasswordCreation": true,
+    "DisablePasswordReveal": true,
+    "DisablePocket": true,
+    "DisableProfileImport": true,
+    "DisableProfileRefresh": true,
+    "DisableSafeMode": true,
+    "DisableSetDesktopBackground": true,
+    "DisableSystemAddonUpdate": true,
+    "DisableTelemetry": true,
+    "DontCheckDefaultBrowser": true,
+    "DownloadDirectory": "${home}/Downloads",
+    "EnableTrackingProtection": {
+      "Cryptomining": true,
+      "Fingerprinting": true,
+      "Value": true
+    },
+    "ExtensionUpdate": false,
+    "FirefoxHome": {
+      "Highlights": false,
+      "Pocket": false,
+      "Search": false,
+      "Snippets": false,
+      "TopSites": false
+    },
+    "FlashPlugin": {
+      "Default": false
+    },
+    "Homepage": {
+      "StartPage": "none"
+    },
+    "NetworkPrediction": false,
+    "NewTabPage": false,
+    "NoDefaultBookmarks": true,
+    "OfferToSaveLogins": false,
+    "OverrideFirstRunPage": "",
+    "OverridePostUpdatePage": "",
+    "PasswordManagerEnabled": false,
+    "Permissions": {
+      "Camera": {
+        "BlockNewRequests": true
+      },
+      "Location": {
+        "BlockNewRequests": true
+      },
+      "Microphone": {
+        "BlockNewRequests": true
+      },
+      "Notifications": {
+        "BlockNewRequests": true
+      }
+    },
+    "Preferences": {
+      "browser.cache.disk.enable": false,
+      "browser.fixup.dns_first_for_single_words": false,
+      "browser.search.update": false,
+      "browser.tabs.warnOnClose": true,
+      "browser.urlbar.suggest.bookmark": true,
+      "browser.urlbar.suggest.history": true,
+      "browser.urlbar.suggest.openpage": true,
+      "datareporting.policy.dataSubmissionPolicyBypassNotification": true,
+      "dom.disable_window_flip": true,
+      "dom.disable_window_move_resize": true,
+      "dom.event.contextmenu.enabled": false,
+      "extensions.getAddons.showPane": false,
+      "media.gmp-gmpopenh264.enabled": false,
+      "media.gmp-widevinecdm.enabled": false,
+      "network.dns.disableIPv6": true,
+      "places.history.enabled": false,
+      "privacy.file_unique_origin": true,
+      "security.ssl.errorReporting.enabled": false,
+      "ui.key.menuAccessKeyFocuses": true
+    },
+    "PromptForDownloadLocation": false,
+    "SSLVersionMax": "tls1.3",
+    "SanitizeOnShutdown": {
+      "Cache": true,
+      "Cookies": true,
+      "Downloads": false,
+      "FormData": true,
+      "History": true,
+      "OfflineApps": true,
+      "Sessions": true,
+      "SiteSettings": true
+    },
+    "SearchBar": "separate",
+    "SearchSuggestEnabled": false
+  }
+}
